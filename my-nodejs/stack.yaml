@@ -1,0 +1,10 @@
+name: Node.js
+version: 0.0.1
+description: My Node.js applications
+license: Apache-2.0
+language: nodejs
+maintainers:
+  - name: happycloudpak
+    email: happycloudpak@gmail.com
+    github-id: happycloudpak
+default-template: simple
