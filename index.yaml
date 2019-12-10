@@ -1,0 +1,16 @@
+apiVersion: v2
+stacks:
+- id: my-nodejs
+  name: Node.js
+  version: 0.0.1
+  description: My Node.js applications
+  license: Apache-2.0
+  language: nodejs
+  maintainers:
+  - name: happycloudpak
+    email: happycloudpak@gmail.com
+    github-id: happycloudpak
+  default-template: simple
+  templates:
+  - id: simple
+    url: https://happycloudpak.github.io/appsody-stacks/download/my-nodejs.v0.0.1.templates.simple.tar.gz
